@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #343435fa;
+}
+
+header {
+    padding: 20px 35px;
+    background-color: rgb(255, 123, 0);
+    display: flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    top: 0;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
+  }
+
+header h1 {
+  Color: white;
+  font-weight: bold;
+  font-size: 36px;
+  background-color: rgb(255, 123, 0);
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+  list-style: none;
+}
+
+header nav ul li a {
+  padding: 10px 30px;
+  font-weight: bold;
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+  align-items: center;
+  background: rgb(255, 123, 0);
+}
+
+img {
+background-size: cover;
+}
+
+.aboutme {
+
+}
+
+.aboutme h2 {
+  font-size: 36px;
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 10px orange;
+  padding: 20px 35px;
+}
+
+.aboutme-content {
+  display: flex;
+  color: white;
+  font-size: 18px;
+}
+
+.aboutme-content p {
+  border: solid rgb(255, 123, 0);
+  text-align: center;
+  padding: 100px;
+}
+
+.my-work {
+
+}
+
+.my-work h2 {
+  color: white;
+  text-align: center;
+  padding: 35px 35px;
+  font-size: 36px;
+  text-shadow: 0 0 10px orange;
+}
+
+.run-buddy {
+display: flex;
+justify-content: space-between;
+align-items: center;
+border: solid yellow;
+border-radius: 15px;
+background-color: #024e76;
+width: 80%;
+}
+
+.run-buddy a {
+  background-color: #024e76;
+  text-align: center;
+  color: yellow;
+  font-weight: bold;
+  font-size: 80px;
+  text-decoration: none;
+}
+
+.other-projects {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: rgb(255, 123, 0);
+  border: solid #024e76;
+  border-radius: 15px;
+  width:40%;
+  margin: 35px;
+}
+
+.other-projects a {
+  font-size: 30px;
+  text-align: center;
+  background-color: rgb(255, 123, 0);
+  color: #024e76;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact-me {
+  padding: 20px 35px;
+  background-color: rgb(255, 123, 0);
+  display: flex;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  top: 0;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-position: 80%;
+}
+
+.contact-me nav ul {
+  display: flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+  list-style: none;
+}
+
+.contact-me h4 {
+  color: white;
+  background-color: rgb(255, 123, 0);
+}
+
+.contact-me ul li {
+  padding: 10px 35px;
+  text-align: center;
+  background-color: rgb(255, 123, 0);
+  justify-content: space-between;
+}
+
+.contact-me ul li a {
+  background-color: rgb(255, 123, 0);
+  color: white;
+  text-decoration: none;
+}
